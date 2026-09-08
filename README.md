@@ -120,7 +120,7 @@ comparison_summary/              (output of 8_aggregate_summary.py)
 ├── ar1_comparison.csv
 └── plots/
 
-masks/                           (bundled with this repo — see §7)
+masks/                           (bundled with this repo — see §6)
 ```
 
 Create output folders (and their `logs/` subfolders, if using the `sbatch`
@@ -281,7 +281,7 @@ interest.
 **Output split:** left-right correlations go to `analysis_output/correlation`
 (a primary result); ROI-vs-CC correlations go to `qc_checks/qc_correlations`
 (a QC/sanity check, not a connectivity finding).
-**This project's ROI set** (`ROI_NAMES`): CC, M1, V1, VTA, VTASN, VS — see §7
+**This project's ROI set** (`ROI_NAMES`): CC, M1, V1, VTA, VTASN, VS — see §6
 for the actual bundled masks, which include a few additional regions not yet
 wired into this default list (PCC, VMPFC) — update `ROI_NAMES` and the
 left/right pairing logic if you want those included in this analysis too.
