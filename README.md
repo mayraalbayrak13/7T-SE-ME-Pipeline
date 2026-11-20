@@ -1,4 +1,4 @@
-# 7T SE vs ME fMRI Processing Pipeline
+# 7T SE vs ME fMRI Preprocessing Pipeline
 
 ## About this repository
 
