@@ -400,3 +400,9 @@ to work correctly — verify with `fslinfo` if using your own.
 - **FSL/FEAT/MELODIC preprocessing branch** — explored during development but excluded to keep the repo focused on a single-tool (fMRIPrep) comparison.
 - **Physio (PNM)-based confound regression** — if a physio-based regression needed to be added to this pipeline it would be via FSL FEAT (which natively supports
   voxelwise confound regressors, unlike the matrix-based GLM in script 4). The PNM steps would need to be observed and FEAT-friendly confounds file output would be needed. These would be input to FEAT along with the BOLD image to achieve confound regression through fsl tools.
+
+
+---
+### Claude Assistance
+
+Anthropic's Claude Sonnet model was used to assist with the development and debugging of scripts in this repository. Scripts and analyses were reviewed by the authors.
